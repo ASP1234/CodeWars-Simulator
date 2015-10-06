@@ -112,6 +112,7 @@
             this.bonus_btn1.TabIndex = 8;
             this.bonus_btn1.Text = "Challenge";
             this.bonus_btn1.UseVisualStyleBackColor = true;
+            this.bonus_btn1.Click += new System.EventHandler(this.bonus_btn1_Click);
             // 
             // neg_btn1
             // 
@@ -121,6 +122,7 @@
             this.neg_btn1.TabIndex = 7;
             this.neg_btn1.Text = "Lost";
             this.neg_btn1.UseVisualStyleBackColor = true;
+            this.neg_btn1.Click += new System.EventHandler(this.neg_btn1_Click);
             // 
             // mainQ_btn1
             // 
@@ -130,6 +132,7 @@
             this.mainQ_btn1.TabIndex = 6;
             this.mainQ_btn1.Text = "Fighting";
             this.mainQ_btn1.UseVisualStyleBackColor = true;
+            this.mainQ_btn1.Click += new System.EventHandler(this.mainQ_btn1_Click);
             // 
             // mainQ_tb1
             // 
@@ -188,6 +191,7 @@
             this.bonus_btn2.TabIndex = 8;
             this.bonus_btn2.Text = "Challenge";
             this.bonus_btn2.UseVisualStyleBackColor = true;
+            this.bonus_btn2.Click += new System.EventHandler(this.bonus_btn2_Click);
             // 
             // neg_btn2
             // 
@@ -197,6 +201,7 @@
             this.neg_btn2.TabIndex = 7;
             this.neg_btn2.Text = "Lost";
             this.neg_btn2.UseVisualStyleBackColor = true;
+            this.neg_btn2.Click += new System.EventHandler(this.neg_btn2_Click);
             // 
             // mainQ_btn2
             // 
@@ -206,6 +211,7 @@
             this.mainQ_btn2.TabIndex = 6;
             this.mainQ_btn2.Text = "Fighting";
             this.mainQ_btn2.UseVisualStyleBackColor = true;
+            this.mainQ_btn2.Click += new System.EventHandler(this.mainQ_btn2_Click);
             // 
             // mainQ_tb2
             // 
@@ -264,6 +270,7 @@
             this.bonus_btn3.TabIndex = 8;
             this.bonus_btn3.Text = "Challenge";
             this.bonus_btn3.UseVisualStyleBackColor = true;
+            this.bonus_btn3.Click += new System.EventHandler(this.bonus_btn3_Click);
             // 
             // neg_btn3
             // 
@@ -273,6 +280,7 @@
             this.neg_btn3.TabIndex = 7;
             this.neg_btn3.Text = "Lost";
             this.neg_btn3.UseVisualStyleBackColor = true;
+            this.neg_btn3.Click += new System.EventHandler(this.neg_btn3_Click);
             // 
             // mainQ_btn3
             // 
@@ -282,6 +290,7 @@
             this.mainQ_btn3.TabIndex = 6;
             this.mainQ_btn3.Text = "Fighting";
             this.mainQ_btn3.UseVisualStyleBackColor = true;
+            this.mainQ_btn3.Click += new System.EventHandler(this.mainQ_btn3_Click);
             // 
             // mainQ_tb3
             // 
@@ -340,6 +349,7 @@
             this.bonus_btn4.TabIndex = 8;
             this.bonus_btn4.Text = "Challenge";
             this.bonus_btn4.UseVisualStyleBackColor = true;
+            this.bonus_btn4.Click += new System.EventHandler(this.bonus_btn4_Click);
             // 
             // neg_btn4
             // 
@@ -349,6 +359,7 @@
             this.neg_btn4.TabIndex = 7;
             this.neg_btn4.Text = "Lost";
             this.neg_btn4.UseVisualStyleBackColor = true;
+            this.neg_btn4.Click += new System.EventHandler(this.neg_btn4_Click);
             // 
             // mainQ_btn4
             // 
@@ -358,6 +369,7 @@
             this.mainQ_btn4.TabIndex = 6;
             this.mainQ_btn4.Text = "Fighting";
             this.mainQ_btn4.UseVisualStyleBackColor = true;
+            this.mainQ_btn4.Click += new System.EventHandler(this.mainQ_btn4_Click);
             // 
             // mainQ_tb4
             // 
@@ -416,6 +428,7 @@
             this.bonus_btn5.TabIndex = 8;
             this.bonus_btn5.Text = "Challenge";
             this.bonus_btn5.UseVisualStyleBackColor = true;
+            this.bonus_btn5.Click += new System.EventHandler(this.bonus_btn5_Click);
             // 
             // neg_btn5
             // 
@@ -425,6 +438,7 @@
             this.neg_btn5.TabIndex = 7;
             this.neg_btn5.Text = "Lost";
             this.neg_btn5.UseVisualStyleBackColor = true;
+            this.neg_btn5.Click += new System.EventHandler(this.neg_btn5_Click);
             // 
             // mainQ_btn5
             // 
@@ -434,6 +448,7 @@
             this.mainQ_btn5.TabIndex = 6;
             this.mainQ_btn5.Text = "Fighting";
             this.mainQ_btn5.UseVisualStyleBackColor = true;
+            this.mainQ_btn5.Click += new System.EventHandler(this.mainQ_btn5_Click);
             // 
             // mainQ_tb5
             // 
@@ -492,6 +507,7 @@
             this.bonus_btn6.TabIndex = 8;
             this.bonus_btn6.Text = "Challenge";
             this.bonus_btn6.UseVisualStyleBackColor = true;
+            this.bonus_btn6.Click += new System.EventHandler(this.bonus_btn6_Click);
             // 
             // neg_btn6
             // 
@@ -501,6 +517,7 @@
             this.neg_btn6.TabIndex = 7;
             this.neg_btn6.Text = "Lost";
             this.neg_btn6.UseVisualStyleBackColor = true;
+            this.neg_btn6.Click += new System.EventHandler(this.neg_btn6_Click);
             // 
             // mainQ_btn6
             // 
@@ -510,6 +527,7 @@
             this.mainQ_btn6.TabIndex = 6;
             this.mainQ_btn6.Text = "Fighting";
             this.mainQ_btn6.UseVisualStyleBackColor = true;
+            this.mainQ_btn6.Click += new System.EventHandler(this.mainQ_btn6_Click);
             // 
             // mainQ_tb6
             // 
