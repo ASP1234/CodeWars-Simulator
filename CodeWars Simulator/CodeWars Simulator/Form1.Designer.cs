@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.bonus_btn1 = new System.Windows.Forms.Button();
             this.neg_btn1 = new System.Windows.Forms.Button();
@@ -80,6 +81,7 @@
             this.secs_tb = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.start_btn = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -580,6 +582,13 @@
             this.start_btn.TabIndex = 9;
             this.start_btn.Text = "CODE";
             this.start_btn.UseVisualStyleBackColor = true;
+            this.start_btn.Click += new System.EventHandler(this.start_btn_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -669,6 +678,7 @@
         private System.Windows.Forms.TextBox secs_tb;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button start_btn;
+        private System.Windows.Forms.Timer timer1;
 
     }
 }
