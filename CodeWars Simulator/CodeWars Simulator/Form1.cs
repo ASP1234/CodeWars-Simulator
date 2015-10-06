@@ -39,8 +39,41 @@ namespace CodeWars_Simulator
             
         }
 
+        private void check()
+        {
+            for (int i = 0; i < 6; i++)
+            {
+                if(!TEAM[i].mainQ_btn.Enabled)
+                    TEAM[i].Qnum +=6;
+            }
+
+            rotate();
+        }
+
+        private void rotate()
+        {
+            int prev = TEAM[5].Qnum, curr;
+
+            for (int i = 0; i < 6; i++)
+            {
+                curr = TEAM[i].Qnum;
+                TEAM[i].Qnum = prev;
+                prev = curr;
+
+                TEAM[i].display("");
+            }
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
+            if (SECS == 0 && MINS == 0)
+            {
+                timer1.Stop();
+                check();
+                start_btn.Visible = true;
+                return;
+            }
+
             if (SECS == 0)
             {
                 SECS = 59;
@@ -70,8 +103,8 @@ namespace CodeWars_Simulator
                 TEAM[i].bonusQ_btn.Enabled = true;
             }
 
-            MINS = 20;
-            SECS = 0;
+            MINS = 0;
+            SECS = 10;
             timer1.Start();
             start_btn.Visible = false;
         }
