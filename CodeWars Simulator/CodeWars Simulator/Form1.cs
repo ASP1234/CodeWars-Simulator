@@ -15,5 +15,7 @@ namespace CodeWars_Simulator
         {
             InitializeComponent();
         }
+
+       
     }
 }
