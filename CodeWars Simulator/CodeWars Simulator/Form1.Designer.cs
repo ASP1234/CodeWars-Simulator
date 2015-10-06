@@ -131,6 +131,7 @@
             // 
             // mainQ_tb1
             // 
+            this.mainQ_tb1.Enabled = false;
             this.mainQ_tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mainQ_tb1.Location = new System.Drawing.Point(8, 34);
             this.mainQ_tb1.Name = "mainQ_tb1";
@@ -139,6 +140,7 @@
             // 
             // score_tb1
             // 
+            this.score_tb1.Enabled = false;
             this.score_tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score_tb1.Location = new System.Drawing.Point(59, 34);
             this.score_tb1.Name = "score_tb1";
@@ -147,6 +149,7 @@
             // 
             // bonusQ_tb1
             // 
+            this.bonusQ_tb1.Enabled = false;
             this.bonusQ_tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bonusQ_tb1.Location = new System.Drawing.Point(109, 34);
             this.bonusQ_tb1.Name = "bonusQ_tb1";
@@ -155,6 +158,7 @@
             // 
             // teamID_tb1
             // 
+            this.teamID_tb1.Enabled = false;
             this.teamID_tb1.Location = new System.Drawing.Point(8, 8);
             this.teamID_tb1.Name = "teamID_tb1";
             this.teamID_tb1.Size = new System.Drawing.Size(136, 20);
@@ -203,6 +207,7 @@
             // 
             // mainQ_tb2
             // 
+            this.mainQ_tb2.Enabled = false;
             this.mainQ_tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mainQ_tb2.Location = new System.Drawing.Point(8, 34);
             this.mainQ_tb2.Name = "mainQ_tb2";
@@ -211,6 +216,7 @@
             // 
             // score_tb2
             // 
+            this.score_tb2.Enabled = false;
             this.score_tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score_tb2.Location = new System.Drawing.Point(59, 34);
             this.score_tb2.Name = "score_tb2";
@@ -219,6 +225,7 @@
             // 
             // bonusQ_tb2
             // 
+            this.bonusQ_tb2.Enabled = false;
             this.bonusQ_tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bonusQ_tb2.Location = new System.Drawing.Point(109, 34);
             this.bonusQ_tb2.Name = "bonusQ_tb2";
@@ -227,6 +234,7 @@
             // 
             // teamID_tb2
             // 
+            this.teamID_tb2.Enabled = false;
             this.teamID_tb2.Location = new System.Drawing.Point(8, 8);
             this.teamID_tb2.Name = "teamID_tb2";
             this.teamID_tb2.Size = new System.Drawing.Size(136, 20);
@@ -275,6 +283,7 @@
             // 
             // mainQ_tb3
             // 
+            this.mainQ_tb3.Enabled = false;
             this.mainQ_tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mainQ_tb3.Location = new System.Drawing.Point(8, 34);
             this.mainQ_tb3.Name = "mainQ_tb3";
@@ -283,6 +292,7 @@
             // 
             // score_tb3
             // 
+            this.score_tb3.Enabled = false;
             this.score_tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score_tb3.Location = new System.Drawing.Point(59, 34);
             this.score_tb3.Name = "score_tb3";
@@ -291,6 +301,7 @@
             // 
             // bonusQ_tb3
             // 
+            this.bonusQ_tb3.Enabled = false;
             this.bonusQ_tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bonusQ_tb3.Location = new System.Drawing.Point(109, 34);
             this.bonusQ_tb3.Name = "bonusQ_tb3";
@@ -299,6 +310,7 @@
             // 
             // teamID_tb3
             // 
+            this.teamID_tb3.Enabled = false;
             this.teamID_tb3.Location = new System.Drawing.Point(8, 8);
             this.teamID_tb3.Name = "teamID_tb3";
             this.teamID_tb3.Size = new System.Drawing.Size(136, 20);
@@ -347,6 +359,7 @@
             // 
             // mainQ_tb4
             // 
+            this.mainQ_tb4.Enabled = false;
             this.mainQ_tb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mainQ_tb4.Location = new System.Drawing.Point(8, 34);
             this.mainQ_tb4.Name = "mainQ_tb4";
@@ -355,6 +368,7 @@
             // 
             // score_tb4
             // 
+            this.score_tb4.Enabled = false;
             this.score_tb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score_tb4.Location = new System.Drawing.Point(59, 34);
             this.score_tb4.Name = "score_tb4";
@@ -363,6 +377,7 @@
             // 
             // bonusQ_tb4
             // 
+            this.bonusQ_tb4.Enabled = false;
             this.bonusQ_tb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bonusQ_tb4.Location = new System.Drawing.Point(109, 34);
             this.bonusQ_tb4.Name = "bonusQ_tb4";
@@ -371,6 +386,7 @@
             // 
             // teamID_tb4
             // 
+            this.teamID_tb4.Enabled = false;
             this.teamID_tb4.Location = new System.Drawing.Point(8, 8);
             this.teamID_tb4.Name = "teamID_tb4";
             this.teamID_tb4.Size = new System.Drawing.Size(136, 20);
@@ -419,6 +435,7 @@
             // 
             // mainQ_tb5
             // 
+            this.mainQ_tb5.Enabled = false;
             this.mainQ_tb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mainQ_tb5.Location = new System.Drawing.Point(8, 34);
             this.mainQ_tb5.Name = "mainQ_tb5";
@@ -427,6 +444,7 @@
             // 
             // score_tb5
             // 
+            this.score_tb5.Enabled = false;
             this.score_tb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score_tb5.Location = new System.Drawing.Point(59, 34);
             this.score_tb5.Name = "score_tb5";
@@ -435,6 +453,7 @@
             // 
             // bonusQ_tb5
             // 
+            this.bonusQ_tb5.Enabled = false;
             this.bonusQ_tb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bonusQ_tb5.Location = new System.Drawing.Point(109, 34);
             this.bonusQ_tb5.Name = "bonusQ_tb5";
@@ -443,6 +462,7 @@
             // 
             // teamID_tb5
             // 
+            this.teamID_tb5.Enabled = false;
             this.teamID_tb5.Location = new System.Drawing.Point(8, 8);
             this.teamID_tb5.Name = "teamID_tb5";
             this.teamID_tb5.Size = new System.Drawing.Size(136, 20);
@@ -491,6 +511,7 @@
             // 
             // mainQ_tb6
             // 
+            this.mainQ_tb6.Enabled = false;
             this.mainQ_tb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mainQ_tb6.Location = new System.Drawing.Point(8, 34);
             this.mainQ_tb6.Name = "mainQ_tb6";
@@ -499,6 +520,7 @@
             // 
             // score_tb6
             // 
+            this.score_tb6.Enabled = false;
             this.score_tb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score_tb6.Location = new System.Drawing.Point(59, 34);
             this.score_tb6.Name = "score_tb6";
@@ -507,6 +529,7 @@
             // 
             // bonusQ_tb6
             // 
+            this.bonusQ_tb6.Enabled = false;
             this.bonusQ_tb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bonusQ_tb6.Location = new System.Drawing.Point(109, 34);
             this.bonusQ_tb6.Name = "bonusQ_tb6";
@@ -515,6 +538,7 @@
             // 
             // teamID_tb6
             // 
+            this.teamID_tb6.Enabled = false;
             this.teamID_tb6.Location = new System.Drawing.Point(8, 8);
             this.teamID_tb6.Name = "teamID_tb6";
             this.teamID_tb6.Size = new System.Drawing.Size(136, 20);
@@ -522,6 +546,7 @@
             // 
             // mins_tb
             // 
+            this.mins_tb.Enabled = false;
             this.mins_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mins_tb.Location = new System.Drawing.Point(190, 146);
             this.mins_tb.Name = "mins_tb";
@@ -530,6 +555,7 @@
             // 
             // secs_tb
             // 
+            this.secs_tb.Enabled = false;
             this.secs_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secs_tb.Location = new System.Drawing.Point(335, 146);
             this.secs_tb.Name = "secs_tb";

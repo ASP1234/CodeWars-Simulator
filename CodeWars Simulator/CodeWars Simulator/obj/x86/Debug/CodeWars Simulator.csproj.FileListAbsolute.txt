@@ -1,0 +1,7 @@
+C:\Users\Nimish\Dropbox\Documents\Clubs\IE CSE\Code Wars 2015\Simulator\CodeWars Simulator\CodeWars Simulator\bin\Debug\CodeWars Simulator.exe
+C:\Users\Nimish\Dropbox\Documents\Clubs\IE CSE\Code Wars 2015\Simulator\CodeWars Simulator\CodeWars Simulator\bin\Debug\CodeWars Simulator.pdb
+C:\Users\Nimish\Dropbox\Documents\Clubs\IE CSE\Code Wars 2015\Simulator\CodeWars Simulator\CodeWars Simulator\obj\x86\Debug\CodeWars_Simulator.Form1.resources
+C:\Users\Nimish\Dropbox\Documents\Clubs\IE CSE\Code Wars 2015\Simulator\CodeWars Simulator\CodeWars Simulator\obj\x86\Debug\CodeWars_Simulator.Properties.Resources.resources
+C:\Users\Nimish\Dropbox\Documents\Clubs\IE CSE\Code Wars 2015\Simulator\CodeWars Simulator\CodeWars Simulator\obj\x86\Debug\CodeWars Simulator.csproj.GenerateResource.Cache
+C:\Users\Nimish\Dropbox\Documents\Clubs\IE CSE\Code Wars 2015\Simulator\CodeWars Simulator\CodeWars Simulator\obj\x86\Debug\CodeWars Simulator.exe
+C:\Users\Nimish\Dropbox\Documents\Clubs\IE CSE\Code Wars 2015\Simulator\CodeWars Simulator\CodeWars Simulator\obj\x86\Debug\CodeWars Simulator.pdb
