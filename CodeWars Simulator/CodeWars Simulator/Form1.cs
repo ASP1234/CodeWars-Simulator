@@ -39,6 +39,17 @@ namespace CodeWars_Simulator
             
         }
 
+        private void check()
+        {
+            for (int i = 0; i < 6; i++)
+            {
+                if(!TEAM[i].mainQ_btn.Enabled)
+                    TEAM[i].Qnum +=6;
+            }
+
+            rotate();
+        }
+
         private void rotate()
         {
             int prev = TEAM[5].Qnum, curr;
@@ -58,7 +69,7 @@ namespace CodeWars_Simulator
             if (SECS == 0 && MINS == 0)
             {
                 timer1.Stop();
-                rotate();
+                check();
                 start_btn.Visible = true;
                 return;
             }
@@ -101,7 +112,6 @@ namespace CodeWars_Simulator
         private void mainQ_btn1_Click(object sender, EventArgs e)
         {
             TEAM[0].points += 100;
-            TEAM[0].Qnum += 6;
             mainQ_btn1.Enabled = false;
 
             if (MINS >= 5)
@@ -113,7 +123,6 @@ namespace CodeWars_Simulator
         private void mainQ_btn2_Click(object sender, EventArgs e)
         {
             TEAM[1].points += 100;
-            TEAM[1].Qnum += 6;
             mainQ_btn2.Enabled = false;
 
             if (MINS >= 5)
@@ -126,7 +135,6 @@ namespace CodeWars_Simulator
         private void mainQ_btn3_Click(object sender, EventArgs e)
         {
             TEAM[2].points += 100;
-            TEAM[2].Qnum += 6;
             mainQ_btn3.Enabled = false;
 
             if (MINS >= 5)
@@ -139,7 +147,6 @@ namespace CodeWars_Simulator
         private void mainQ_btn4_Click(object sender, EventArgs e)
         {
             TEAM[3].points += 100;
-            TEAM[3].Qnum += 6;
             mainQ_btn4.Enabled = false;
 
             if (MINS >= 5)
@@ -151,7 +158,6 @@ namespace CodeWars_Simulator
         private void mainQ_btn5_Click(object sender, EventArgs e)
         {
             TEAM[4].points += 100;
-            TEAM[4].Qnum += 6;
             mainQ_btn5.Enabled = false;
 
             if (MINS >= 5)
@@ -163,7 +169,6 @@ namespace CodeWars_Simulator
         private void mainQ_btn6_Click(object sender, EventArgs e)
         {
             TEAM[5].points += 100;
-            TEAM[5].Qnum += 6;
             mainQ_btn6.Enabled = false;
 
             if (MINS >= 5)
