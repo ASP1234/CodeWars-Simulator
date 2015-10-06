@@ -1,0 +1,16 @@
+1.	Simulate the Event
+2. For each team, it has a team block which contains the following fields:
+	- Team ID
+	- Q Assigned
+	- Score
+	- Bonus Q (if any)
+
+3. A timer of 20 mins also runs in the foreground
+4. After every 15 mins, simulator checks for any completed Q and replace the Q with new Q- which is 
+	OLD_Q +6
+5. Q are then rotated
+6. Clicking on the Done button makes the assigned Q solved, thus giving scores.
+7. If timer value> 05:00 , bonus will be given by the following eqn:
+	37-Q_N0
+8. Clicking on challenge button makes the bonus assigned to be solved, thus giving bonus score else, score will be decreased of the opponent
+9. 6 slots
