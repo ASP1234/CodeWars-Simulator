@@ -5,3 +5,4 @@ C:\Users\Nimish\Dropbox\Documents\Clubs\IE CSE\Code Wars 2015\Simulator\CodeWars
 C:\Users\Nimish\Dropbox\Documents\Clubs\IE CSE\Code Wars 2015\Simulator\CodeWars Simulator\CodeWars Simulator\obj\x86\Debug\CodeWars Simulator.csproj.GenerateResource.Cache
 C:\Users\Nimish\Dropbox\Documents\Clubs\IE CSE\Code Wars 2015\Simulator\CodeWars Simulator\CodeWars Simulator\obj\x86\Debug\CodeWars Simulator.exe
 C:\Users\Nimish\Dropbox\Documents\Clubs\IE CSE\Code Wars 2015\Simulator\CodeWars Simulator\CodeWars Simulator\obj\x86\Debug\CodeWars Simulator.pdb
+C:\Users\Nimish\Dropbox\Documents\Clubs\IE CSE\Code Wars 2015\Simulator\CodeWars Simulator\CodeWars Simulator\obj\x86\Debug\CodeWars Simulator.csprojResolveAssemblyReference.cache
