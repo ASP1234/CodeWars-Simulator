@@ -83,12 +83,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.start_btn = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -150,6 +152,7 @@
             // 
             // score_tb1
             // 
+            this.score_tb1.BackColor = System.Drawing.Color.White;
             this.score_tb1.Enabled = false;
             this.score_tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score_tb1.Location = new System.Drawing.Point(79, 62);
@@ -237,6 +240,7 @@
             // 
             // score_tb2
             // 
+            this.score_tb2.BackColor = System.Drawing.Color.White;
             this.score_tb2.Enabled = false;
             this.score_tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score_tb2.Location = new System.Drawing.Point(79, 58);
@@ -324,6 +328,7 @@
             // 
             // score_tb3
             // 
+            this.score_tb3.BackColor = System.Drawing.Color.White;
             this.score_tb3.Enabled = false;
             this.score_tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score_tb3.Location = new System.Drawing.Point(79, 61);
@@ -411,6 +416,7 @@
             // 
             // score_tb4
             // 
+            this.score_tb4.BackColor = System.Drawing.Color.White;
             this.score_tb4.Enabled = false;
             this.score_tb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score_tb4.Location = new System.Drawing.Point(79, 61);
@@ -498,6 +504,7 @@
             // 
             // score_tb5
             // 
+            this.score_tb5.BackColor = System.Drawing.Color.White;
             this.score_tb5.Enabled = false;
             this.score_tb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score_tb5.Location = new System.Drawing.Point(79, 61);
@@ -585,6 +592,7 @@
             // 
             // score_tb6
             // 
+            this.score_tb6.BackColor = System.Drawing.Color.White;
             this.score_tb6.Enabled = false;
             this.score_tb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.score_tb6.Location = new System.Drawing.Point(79, 61);
@@ -618,9 +626,9 @@
             this.mins_tb.BackColor = System.Drawing.Color.White;
             this.mins_tb.Enabled = false;
             this.mins_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 99.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mins_tb.Location = new System.Drawing.Point(497, 250);
+            this.mins_tb.Location = new System.Drawing.Point(499, 272);
             this.mins_tb.Name = "mins_tb";
-            this.mins_tb.Size = new System.Drawing.Size(154, 158);
+            this.mins_tb.Size = new System.Drawing.Size(163, 158);
             this.mins_tb.TabIndex = 6;
             // 
             // secs_tb
@@ -628,16 +636,17 @@
             this.secs_tb.BackColor = System.Drawing.Color.White;
             this.secs_tb.Enabled = false;
             this.secs_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 99.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.secs_tb.Location = new System.Drawing.Point(721, 250);
+            this.secs_tb.Location = new System.Drawing.Point(709, 272);
             this.secs_tb.Name = "secs_tb";
-            this.secs_tb.Size = new System.Drawing.Size(154, 158);
+            this.secs_tb.Size = new System.Drawing.Size(165, 158);
             this.secs_tb.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(665, 296);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label1.Location = new System.Drawing.Point(659, 309);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 79);
             this.label1.TabIndex = 8;
@@ -646,9 +655,10 @@
             // start_btn
             // 
             this.start_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.start_btn.Location = new System.Drawing.Point(651, 443);
+            this.start_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.start_btn.Location = new System.Drawing.Point(652, 469);
             this.start_btn.Name = "start_btn";
-            this.start_btn.Size = new System.Drawing.Size(75, 23);
+            this.start_btn.Size = new System.Drawing.Size(75, 36);
             this.start_btn.TabIndex = 9;
             this.start_btn.Text = "MAIN";
             this.start_btn.UseVisualStyleBackColor = true;
@@ -660,12 +670,22 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(487, 59);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(387, 152);
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1344, 730);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.start_btn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.secs_tb);
@@ -691,6 +711,7 @@
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -751,6 +772,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button start_btn;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox pictureBox1;
 
     }
 }
