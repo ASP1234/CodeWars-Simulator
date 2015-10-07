@@ -99,75 +99,83 @@
             this.panel1.Controls.Add(this.score_tb1);
             this.panel1.Controls.Add(this.bonusQ_tb1);
             this.panel1.Controls.Add(this.teamID_tb1);
-            this.panel1.Location = new System.Drawing.Point(13, 11);
+            this.panel1.Location = new System.Drawing.Point(143, 45);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(154, 113);
+            this.panel1.Size = new System.Drawing.Size(242, 166);
             this.panel1.TabIndex = 0;
             // 
             // bonus_btn1
             // 
-            this.bonus_btn1.Location = new System.Drawing.Point(109, 78);
+            this.bonus_btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bonus_btn1.Location = new System.Drawing.Point(178, 123);
             this.bonus_btn1.Name = "bonus_btn1";
-            this.bonus_btn1.Size = new System.Drawing.Size(35, 23);
+            this.bonus_btn1.Size = new System.Drawing.Size(56, 31);
             this.bonus_btn1.TabIndex = 8;
-            this.bonus_btn1.Text = "Challenge";
+            this.bonus_btn1.Text = "WAR";
             this.bonus_btn1.UseVisualStyleBackColor = true;
             this.bonus_btn1.Click += new System.EventHandler(this.bonus_btn1_Click);
             // 
             // neg_btn1
             // 
-            this.neg_btn1.Location = new System.Drawing.Point(59, 78);
+            this.neg_btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.neg_btn1.Location = new System.Drawing.Point(79, 123);
             this.neg_btn1.Name = "neg_btn1";
-            this.neg_btn1.Size = new System.Drawing.Size(35, 23);
+            this.neg_btn1.Size = new System.Drawing.Size(84, 31);
             this.neg_btn1.TabIndex = 7;
-            this.neg_btn1.Text = "Lost";
+            this.neg_btn1.Text = "LOST";
             this.neg_btn1.UseVisualStyleBackColor = true;
             this.neg_btn1.Click += new System.EventHandler(this.neg_btn1_Click);
             // 
             // mainQ_btn1
             // 
-            this.mainQ_btn1.Location = new System.Drawing.Point(8, 78);
+            this.mainQ_btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mainQ_btn1.Location = new System.Drawing.Point(8, 123);
             this.mainQ_btn1.Name = "mainQ_btn1";
-            this.mainQ_btn1.Size = new System.Drawing.Size(35, 23);
+            this.mainQ_btn1.Size = new System.Drawing.Size(56, 31);
             this.mainQ_btn1.TabIndex = 6;
-            this.mainQ_btn1.Text = "Fighting";
+            this.mainQ_btn1.Text = "CODE";
             this.mainQ_btn1.UseVisualStyleBackColor = true;
             this.mainQ_btn1.Click += new System.EventHandler(this.mainQ_btn1_Click);
             // 
             // mainQ_tb1
             // 
             this.mainQ_tb1.Enabled = false;
-            this.mainQ_tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainQ_tb1.Location = new System.Drawing.Point(8, 34);
+            this.mainQ_tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainQ_tb1.Location = new System.Drawing.Point(8, 62);
             this.mainQ_tb1.Name = "mainQ_tb1";
-            this.mainQ_tb1.Size = new System.Drawing.Size(35, 29);
+            this.mainQ_tb1.Size = new System.Drawing.Size(56, 44);
             this.mainQ_tb1.TabIndex = 5;
+            this.mainQ_tb1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // score_tb1
             // 
             this.score_tb1.Enabled = false;
-            this.score_tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.score_tb1.Location = new System.Drawing.Point(59, 34);
+            this.score_tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.score_tb1.Location = new System.Drawing.Point(79, 62);
             this.score_tb1.Name = "score_tb1";
-            this.score_tb1.Size = new System.Drawing.Size(35, 29);
+            this.score_tb1.Size = new System.Drawing.Size(84, 44);
             this.score_tb1.TabIndex = 4;
+            this.score_tb1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bonusQ_tb1
             // 
             this.bonusQ_tb1.Enabled = false;
-            this.bonusQ_tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bonusQ_tb1.Location = new System.Drawing.Point(109, 34);
+            this.bonusQ_tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bonusQ_tb1.Location = new System.Drawing.Point(178, 63);
             this.bonusQ_tb1.Name = "bonusQ_tb1";
-            this.bonusQ_tb1.Size = new System.Drawing.Size(35, 29);
+            this.bonusQ_tb1.Size = new System.Drawing.Size(56, 44);
             this.bonusQ_tb1.TabIndex = 3;
+            this.bonusQ_tb1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // teamID_tb1
             // 
             this.teamID_tb1.Enabled = false;
+            this.teamID_tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teamID_tb1.Location = new System.Drawing.Point(8, 8);
             this.teamID_tb1.Name = "teamID_tb1";
-            this.teamID_tb1.Size = new System.Drawing.Size(136, 20);
+            this.teamID_tb1.Size = new System.Drawing.Size(226, 49);
             this.teamID_tb1.TabIndex = 0;
+            this.teamID_tb1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel2
             // 
@@ -178,75 +186,83 @@
             this.panel2.Controls.Add(this.score_tb2);
             this.panel2.Controls.Add(this.bonusQ_tb2);
             this.panel2.Controls.Add(this.teamID_tb2);
-            this.panel2.Location = new System.Drawing.Point(13, 149);
+            this.panel2.Location = new System.Drawing.Point(143, 268);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(154, 113);
+            this.panel2.Size = new System.Drawing.Size(242, 166);
             this.panel2.TabIndex = 1;
             // 
             // bonus_btn2
             // 
-            this.bonus_btn2.Location = new System.Drawing.Point(109, 78);
+            this.bonus_btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bonus_btn2.Location = new System.Drawing.Point(178, 123);
             this.bonus_btn2.Name = "bonus_btn2";
-            this.bonus_btn2.Size = new System.Drawing.Size(35, 23);
+            this.bonus_btn2.Size = new System.Drawing.Size(56, 31);
             this.bonus_btn2.TabIndex = 8;
-            this.bonus_btn2.Text = "Challenge";
+            this.bonus_btn2.Text = "WAR";
             this.bonus_btn2.UseVisualStyleBackColor = true;
             this.bonus_btn2.Click += new System.EventHandler(this.bonus_btn2_Click);
             // 
             // neg_btn2
             // 
-            this.neg_btn2.Location = new System.Drawing.Point(59, 78);
+            this.neg_btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.neg_btn2.Location = new System.Drawing.Point(79, 123);
             this.neg_btn2.Name = "neg_btn2";
-            this.neg_btn2.Size = new System.Drawing.Size(35, 23);
+            this.neg_btn2.Size = new System.Drawing.Size(84, 31);
             this.neg_btn2.TabIndex = 7;
-            this.neg_btn2.Text = "Lost";
+            this.neg_btn2.Text = "LOST";
             this.neg_btn2.UseVisualStyleBackColor = true;
             this.neg_btn2.Click += new System.EventHandler(this.neg_btn2_Click);
             // 
             // mainQ_btn2
             // 
-            this.mainQ_btn2.Location = new System.Drawing.Point(8, 78);
+            this.mainQ_btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mainQ_btn2.Location = new System.Drawing.Point(8, 123);
             this.mainQ_btn2.Name = "mainQ_btn2";
-            this.mainQ_btn2.Size = new System.Drawing.Size(35, 23);
+            this.mainQ_btn2.Size = new System.Drawing.Size(56, 31);
             this.mainQ_btn2.TabIndex = 6;
-            this.mainQ_btn2.Text = "Fighting";
+            this.mainQ_btn2.Text = "CODE";
             this.mainQ_btn2.UseVisualStyleBackColor = true;
             this.mainQ_btn2.Click += new System.EventHandler(this.mainQ_btn2_Click);
             // 
             // mainQ_tb2
             // 
             this.mainQ_tb2.Enabled = false;
-            this.mainQ_tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainQ_tb2.Location = new System.Drawing.Point(8, 34);
+            this.mainQ_tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainQ_tb2.Location = new System.Drawing.Point(8, 58);
             this.mainQ_tb2.Name = "mainQ_tb2";
-            this.mainQ_tb2.Size = new System.Drawing.Size(35, 29);
+            this.mainQ_tb2.Size = new System.Drawing.Size(56, 44);
             this.mainQ_tb2.TabIndex = 5;
+            this.mainQ_tb2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // score_tb2
             // 
             this.score_tb2.Enabled = false;
-            this.score_tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.score_tb2.Location = new System.Drawing.Point(59, 34);
+            this.score_tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.score_tb2.Location = new System.Drawing.Point(79, 58);
             this.score_tb2.Name = "score_tb2";
-            this.score_tb2.Size = new System.Drawing.Size(35, 29);
+            this.score_tb2.Size = new System.Drawing.Size(84, 44);
             this.score_tb2.TabIndex = 4;
+            this.score_tb2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bonusQ_tb2
             // 
             this.bonusQ_tb2.Enabled = false;
-            this.bonusQ_tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bonusQ_tb2.Location = new System.Drawing.Point(109, 34);
+            this.bonusQ_tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bonusQ_tb2.Location = new System.Drawing.Point(178, 58);
             this.bonusQ_tb2.Name = "bonusQ_tb2";
-            this.bonusQ_tb2.Size = new System.Drawing.Size(35, 29);
+            this.bonusQ_tb2.Size = new System.Drawing.Size(56, 44);
             this.bonusQ_tb2.TabIndex = 3;
+            this.bonusQ_tb2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // teamID_tb2
             // 
             this.teamID_tb2.Enabled = false;
+            this.teamID_tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teamID_tb2.Location = new System.Drawing.Point(8, 8);
             this.teamID_tb2.Name = "teamID_tb2";
-            this.teamID_tb2.Size = new System.Drawing.Size(136, 20);
+            this.teamID_tb2.Size = new System.Drawing.Size(226, 44);
             this.teamID_tb2.TabIndex = 0;
+            this.teamID_tb2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel3
             // 
@@ -257,75 +273,83 @@
             this.panel3.Controls.Add(this.score_tb3);
             this.panel3.Controls.Add(this.bonusQ_tb3);
             this.panel3.Controls.Add(this.teamID_tb3);
-            this.panel3.Location = new System.Drawing.Point(13, 284);
+            this.panel3.Location = new System.Drawing.Point(143, 499);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(154, 113);
+            this.panel3.Size = new System.Drawing.Size(242, 166);
             this.panel3.TabIndex = 2;
             // 
             // bonus_btn3
             // 
-            this.bonus_btn3.Location = new System.Drawing.Point(109, 78);
+            this.bonus_btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bonus_btn3.Location = new System.Drawing.Point(178, 118);
             this.bonus_btn3.Name = "bonus_btn3";
-            this.bonus_btn3.Size = new System.Drawing.Size(35, 23);
+            this.bonus_btn3.Size = new System.Drawing.Size(56, 31);
             this.bonus_btn3.TabIndex = 8;
-            this.bonus_btn3.Text = "Challenge";
+            this.bonus_btn3.Text = "WAR";
             this.bonus_btn3.UseVisualStyleBackColor = true;
             this.bonus_btn3.Click += new System.EventHandler(this.bonus_btn3_Click);
             // 
             // neg_btn3
             // 
-            this.neg_btn3.Location = new System.Drawing.Point(59, 78);
+            this.neg_btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.neg_btn3.Location = new System.Drawing.Point(79, 118);
             this.neg_btn3.Name = "neg_btn3";
-            this.neg_btn3.Size = new System.Drawing.Size(35, 23);
+            this.neg_btn3.Size = new System.Drawing.Size(84, 31);
             this.neg_btn3.TabIndex = 7;
-            this.neg_btn3.Text = "Lost";
+            this.neg_btn3.Text = "LOST";
             this.neg_btn3.UseVisualStyleBackColor = true;
             this.neg_btn3.Click += new System.EventHandler(this.neg_btn3_Click);
             // 
             // mainQ_btn3
             // 
-            this.mainQ_btn3.Location = new System.Drawing.Point(8, 78);
+            this.mainQ_btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mainQ_btn3.Location = new System.Drawing.Point(8, 118);
             this.mainQ_btn3.Name = "mainQ_btn3";
-            this.mainQ_btn3.Size = new System.Drawing.Size(35, 23);
+            this.mainQ_btn3.Size = new System.Drawing.Size(56, 31);
             this.mainQ_btn3.TabIndex = 6;
-            this.mainQ_btn3.Text = "Fighting";
+            this.mainQ_btn3.Text = "CODE";
             this.mainQ_btn3.UseVisualStyleBackColor = true;
             this.mainQ_btn3.Click += new System.EventHandler(this.mainQ_btn3_Click);
             // 
             // mainQ_tb3
             // 
             this.mainQ_tb3.Enabled = false;
-            this.mainQ_tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainQ_tb3.Location = new System.Drawing.Point(8, 34);
+            this.mainQ_tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainQ_tb3.Location = new System.Drawing.Point(8, 61);
             this.mainQ_tb3.Name = "mainQ_tb3";
-            this.mainQ_tb3.Size = new System.Drawing.Size(35, 29);
+            this.mainQ_tb3.Size = new System.Drawing.Size(56, 44);
             this.mainQ_tb3.TabIndex = 5;
+            this.mainQ_tb3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // score_tb3
             // 
             this.score_tb3.Enabled = false;
-            this.score_tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.score_tb3.Location = new System.Drawing.Point(59, 34);
+            this.score_tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.score_tb3.Location = new System.Drawing.Point(79, 61);
             this.score_tb3.Name = "score_tb3";
-            this.score_tb3.Size = new System.Drawing.Size(35, 29);
+            this.score_tb3.Size = new System.Drawing.Size(84, 44);
             this.score_tb3.TabIndex = 4;
+            this.score_tb3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bonusQ_tb3
             // 
             this.bonusQ_tb3.Enabled = false;
-            this.bonusQ_tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bonusQ_tb3.Location = new System.Drawing.Point(109, 34);
+            this.bonusQ_tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bonusQ_tb3.Location = new System.Drawing.Point(178, 61);
             this.bonusQ_tb3.Name = "bonusQ_tb3";
-            this.bonusQ_tb3.Size = new System.Drawing.Size(35, 29);
+            this.bonusQ_tb3.Size = new System.Drawing.Size(56, 44);
             this.bonusQ_tb3.TabIndex = 3;
+            this.bonusQ_tb3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // teamID_tb3
             // 
             this.teamID_tb3.Enabled = false;
+            this.teamID_tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teamID_tb3.Location = new System.Drawing.Point(8, 8);
             this.teamID_tb3.Name = "teamID_tb3";
-            this.teamID_tb3.Size = new System.Drawing.Size(136, 20);
+            this.teamID_tb3.Size = new System.Drawing.Size(226, 47);
             this.teamID_tb3.TabIndex = 0;
+            this.teamID_tb3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel4
             // 
@@ -336,75 +360,83 @@
             this.panel4.Controls.Add(this.score_tb4);
             this.panel4.Controls.Add(this.bonusQ_tb4);
             this.panel4.Controls.Add(this.teamID_tb4);
-            this.panel4.Location = new System.Drawing.Point(439, 11);
+            this.panel4.Location = new System.Drawing.Point(987, 45);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(154, 113);
+            this.panel4.Size = new System.Drawing.Size(242, 166);
             this.panel4.TabIndex = 3;
             // 
             // bonus_btn4
             // 
-            this.bonus_btn4.Location = new System.Drawing.Point(109, 78);
+            this.bonus_btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bonus_btn4.Location = new System.Drawing.Point(178, 123);
             this.bonus_btn4.Name = "bonus_btn4";
-            this.bonus_btn4.Size = new System.Drawing.Size(35, 23);
+            this.bonus_btn4.Size = new System.Drawing.Size(56, 31);
             this.bonus_btn4.TabIndex = 8;
-            this.bonus_btn4.Text = "Challenge";
+            this.bonus_btn4.Text = "WAR";
             this.bonus_btn4.UseVisualStyleBackColor = true;
             this.bonus_btn4.Click += new System.EventHandler(this.bonus_btn4_Click);
             // 
             // neg_btn4
             // 
-            this.neg_btn4.Location = new System.Drawing.Point(59, 78);
+            this.neg_btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.neg_btn4.Location = new System.Drawing.Point(79, 123);
             this.neg_btn4.Name = "neg_btn4";
-            this.neg_btn4.Size = new System.Drawing.Size(35, 23);
+            this.neg_btn4.Size = new System.Drawing.Size(84, 31);
             this.neg_btn4.TabIndex = 7;
-            this.neg_btn4.Text = "Lost";
+            this.neg_btn4.Text = "LOST";
             this.neg_btn4.UseVisualStyleBackColor = true;
             this.neg_btn4.Click += new System.EventHandler(this.neg_btn4_Click);
             // 
             // mainQ_btn4
             // 
-            this.mainQ_btn4.Location = new System.Drawing.Point(8, 78);
+            this.mainQ_btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mainQ_btn4.Location = new System.Drawing.Point(6, 123);
             this.mainQ_btn4.Name = "mainQ_btn4";
-            this.mainQ_btn4.Size = new System.Drawing.Size(35, 23);
+            this.mainQ_btn4.Size = new System.Drawing.Size(56, 31);
             this.mainQ_btn4.TabIndex = 6;
-            this.mainQ_btn4.Text = "Fighting";
+            this.mainQ_btn4.Text = "CODE";
             this.mainQ_btn4.UseVisualStyleBackColor = true;
             this.mainQ_btn4.Click += new System.EventHandler(this.mainQ_btn4_Click);
             // 
             // mainQ_tb4
             // 
             this.mainQ_tb4.Enabled = false;
-            this.mainQ_tb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainQ_tb4.Location = new System.Drawing.Point(8, 34);
+            this.mainQ_tb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainQ_tb4.Location = new System.Drawing.Point(8, 61);
             this.mainQ_tb4.Name = "mainQ_tb4";
-            this.mainQ_tb4.Size = new System.Drawing.Size(35, 29);
+            this.mainQ_tb4.Size = new System.Drawing.Size(56, 44);
             this.mainQ_tb4.TabIndex = 5;
+            this.mainQ_tb4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // score_tb4
             // 
             this.score_tb4.Enabled = false;
-            this.score_tb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.score_tb4.Location = new System.Drawing.Point(59, 34);
+            this.score_tb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.score_tb4.Location = new System.Drawing.Point(79, 61);
             this.score_tb4.Name = "score_tb4";
-            this.score_tb4.Size = new System.Drawing.Size(35, 29);
+            this.score_tb4.Size = new System.Drawing.Size(84, 44);
             this.score_tb4.TabIndex = 4;
+            this.score_tb4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bonusQ_tb4
             // 
             this.bonusQ_tb4.Enabled = false;
-            this.bonusQ_tb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bonusQ_tb4.Location = new System.Drawing.Point(109, 34);
+            this.bonusQ_tb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bonusQ_tb4.Location = new System.Drawing.Point(178, 61);
             this.bonusQ_tb4.Name = "bonusQ_tb4";
-            this.bonusQ_tb4.Size = new System.Drawing.Size(35, 29);
+            this.bonusQ_tb4.Size = new System.Drawing.Size(56, 44);
             this.bonusQ_tb4.TabIndex = 3;
+            this.bonusQ_tb4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // teamID_tb4
             // 
             this.teamID_tb4.Enabled = false;
+            this.teamID_tb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teamID_tb4.Location = new System.Drawing.Point(8, 8);
             this.teamID_tb4.Name = "teamID_tb4";
-            this.teamID_tb4.Size = new System.Drawing.Size(136, 20);
+            this.teamID_tb4.Size = new System.Drawing.Size(226, 47);
             this.teamID_tb4.TabIndex = 0;
+            this.teamID_tb4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel5
             // 
@@ -415,75 +447,83 @@
             this.panel5.Controls.Add(this.score_tb5);
             this.panel5.Controls.Add(this.bonusQ_tb5);
             this.panel5.Controls.Add(this.teamID_tb5);
-            this.panel5.Location = new System.Drawing.Point(439, 149);
+            this.panel5.Location = new System.Drawing.Point(987, 272);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(154, 113);
+            this.panel5.Size = new System.Drawing.Size(242, 166);
             this.panel5.TabIndex = 4;
             // 
             // bonus_btn5
             // 
-            this.bonus_btn5.Location = new System.Drawing.Point(109, 78);
+            this.bonus_btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bonus_btn5.Location = new System.Drawing.Point(178, 127);
             this.bonus_btn5.Name = "bonus_btn5";
-            this.bonus_btn5.Size = new System.Drawing.Size(35, 23);
+            this.bonus_btn5.Size = new System.Drawing.Size(56, 31);
             this.bonus_btn5.TabIndex = 8;
-            this.bonus_btn5.Text = "Challenge";
+            this.bonus_btn5.Text = "WAR";
             this.bonus_btn5.UseVisualStyleBackColor = true;
             this.bonus_btn5.Click += new System.EventHandler(this.bonus_btn5_Click);
             // 
             // neg_btn5
             // 
-            this.neg_btn5.Location = new System.Drawing.Point(59, 78);
+            this.neg_btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.neg_btn5.Location = new System.Drawing.Point(79, 127);
             this.neg_btn5.Name = "neg_btn5";
-            this.neg_btn5.Size = new System.Drawing.Size(35, 23);
+            this.neg_btn5.Size = new System.Drawing.Size(84, 31);
             this.neg_btn5.TabIndex = 7;
-            this.neg_btn5.Text = "Lost";
+            this.neg_btn5.Text = "LOST";
             this.neg_btn5.UseVisualStyleBackColor = true;
             this.neg_btn5.Click += new System.EventHandler(this.neg_btn5_Click);
             // 
             // mainQ_btn5
             // 
-            this.mainQ_btn5.Location = new System.Drawing.Point(8, 78);
+            this.mainQ_btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mainQ_btn5.Location = new System.Drawing.Point(8, 127);
             this.mainQ_btn5.Name = "mainQ_btn5";
-            this.mainQ_btn5.Size = new System.Drawing.Size(35, 23);
+            this.mainQ_btn5.Size = new System.Drawing.Size(56, 31);
             this.mainQ_btn5.TabIndex = 6;
-            this.mainQ_btn5.Text = "Fighting";
+            this.mainQ_btn5.Text = "CODE";
             this.mainQ_btn5.UseVisualStyleBackColor = true;
             this.mainQ_btn5.Click += new System.EventHandler(this.mainQ_btn5_Click);
             // 
             // mainQ_tb5
             // 
             this.mainQ_tb5.Enabled = false;
-            this.mainQ_tb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainQ_tb5.Location = new System.Drawing.Point(8, 34);
+            this.mainQ_tb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainQ_tb5.Location = new System.Drawing.Point(8, 61);
             this.mainQ_tb5.Name = "mainQ_tb5";
-            this.mainQ_tb5.Size = new System.Drawing.Size(35, 29);
+            this.mainQ_tb5.Size = new System.Drawing.Size(56, 44);
             this.mainQ_tb5.TabIndex = 5;
+            this.mainQ_tb5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // score_tb5
             // 
             this.score_tb5.Enabled = false;
-            this.score_tb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.score_tb5.Location = new System.Drawing.Point(59, 34);
+            this.score_tb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.score_tb5.Location = new System.Drawing.Point(79, 61);
             this.score_tb5.Name = "score_tb5";
-            this.score_tb5.Size = new System.Drawing.Size(35, 29);
+            this.score_tb5.Size = new System.Drawing.Size(84, 44);
             this.score_tb5.TabIndex = 4;
+            this.score_tb5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bonusQ_tb5
             // 
             this.bonusQ_tb5.Enabled = false;
-            this.bonusQ_tb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bonusQ_tb5.Location = new System.Drawing.Point(109, 34);
+            this.bonusQ_tb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bonusQ_tb5.Location = new System.Drawing.Point(178, 61);
             this.bonusQ_tb5.Name = "bonusQ_tb5";
-            this.bonusQ_tb5.Size = new System.Drawing.Size(35, 29);
+            this.bonusQ_tb5.Size = new System.Drawing.Size(56, 44);
             this.bonusQ_tb5.TabIndex = 3;
+            this.bonusQ_tb5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // teamID_tb5
             // 
             this.teamID_tb5.Enabled = false;
+            this.teamID_tb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teamID_tb5.Location = new System.Drawing.Point(8, 8);
             this.teamID_tb5.Name = "teamID_tb5";
-            this.teamID_tb5.Size = new System.Drawing.Size(136, 20);
+            this.teamID_tb5.Size = new System.Drawing.Size(226, 47);
             this.teamID_tb5.TabIndex = 0;
+            this.teamID_tb5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel6
             // 
@@ -494,111 +534,122 @@
             this.panel6.Controls.Add(this.score_tb6);
             this.panel6.Controls.Add(this.bonusQ_tb6);
             this.panel6.Controls.Add(this.teamID_tb6);
-            this.panel6.Location = new System.Drawing.Point(439, 284);
+            this.panel6.Location = new System.Drawing.Point(987, 499);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(154, 113);
+            this.panel6.Size = new System.Drawing.Size(242, 166);
             this.panel6.TabIndex = 5;
             // 
             // bonus_btn6
             // 
-            this.bonus_btn6.Location = new System.Drawing.Point(109, 78);
+            this.bonus_btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bonus_btn6.Location = new System.Drawing.Point(178, 126);
             this.bonus_btn6.Name = "bonus_btn6";
-            this.bonus_btn6.Size = new System.Drawing.Size(35, 23);
+            this.bonus_btn6.Size = new System.Drawing.Size(56, 31);
             this.bonus_btn6.TabIndex = 8;
-            this.bonus_btn6.Text = "Challenge";
+            this.bonus_btn6.Text = "WAR";
             this.bonus_btn6.UseVisualStyleBackColor = true;
             this.bonus_btn6.Click += new System.EventHandler(this.bonus_btn6_Click);
             // 
             // neg_btn6
             // 
-            this.neg_btn6.Location = new System.Drawing.Point(59, 78);
+            this.neg_btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.neg_btn6.Location = new System.Drawing.Point(79, 126);
             this.neg_btn6.Name = "neg_btn6";
-            this.neg_btn6.Size = new System.Drawing.Size(35, 23);
+            this.neg_btn6.Size = new System.Drawing.Size(84, 31);
             this.neg_btn6.TabIndex = 7;
-            this.neg_btn6.Text = "Lost";
+            this.neg_btn6.Text = "LOST";
             this.neg_btn6.UseVisualStyleBackColor = true;
             this.neg_btn6.Click += new System.EventHandler(this.neg_btn6_Click);
             // 
             // mainQ_btn6
             // 
-            this.mainQ_btn6.Location = new System.Drawing.Point(8, 78);
+            this.mainQ_btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mainQ_btn6.Location = new System.Drawing.Point(8, 126);
             this.mainQ_btn6.Name = "mainQ_btn6";
-            this.mainQ_btn6.Size = new System.Drawing.Size(35, 23);
+            this.mainQ_btn6.Size = new System.Drawing.Size(56, 31);
             this.mainQ_btn6.TabIndex = 6;
-            this.mainQ_btn6.Text = "Fighting";
+            this.mainQ_btn6.Text = "CODE";
             this.mainQ_btn6.UseVisualStyleBackColor = true;
             this.mainQ_btn6.Click += new System.EventHandler(this.mainQ_btn6_Click);
             // 
             // mainQ_tb6
             // 
             this.mainQ_tb6.Enabled = false;
-            this.mainQ_tb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainQ_tb6.Location = new System.Drawing.Point(8, 34);
+            this.mainQ_tb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainQ_tb6.Location = new System.Drawing.Point(8, 61);
             this.mainQ_tb6.Name = "mainQ_tb6";
-            this.mainQ_tb6.Size = new System.Drawing.Size(35, 29);
+            this.mainQ_tb6.Size = new System.Drawing.Size(54, 44);
             this.mainQ_tb6.TabIndex = 5;
+            this.mainQ_tb6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // score_tb6
             // 
             this.score_tb6.Enabled = false;
-            this.score_tb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.score_tb6.Location = new System.Drawing.Point(59, 34);
+            this.score_tb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.score_tb6.Location = new System.Drawing.Point(79, 61);
             this.score_tb6.Name = "score_tb6";
-            this.score_tb6.Size = new System.Drawing.Size(35, 29);
+            this.score_tb6.Size = new System.Drawing.Size(84, 44);
             this.score_tb6.TabIndex = 4;
+            this.score_tb6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bonusQ_tb6
             // 
             this.bonusQ_tb6.Enabled = false;
-            this.bonusQ_tb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bonusQ_tb6.Location = new System.Drawing.Point(109, 34);
+            this.bonusQ_tb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bonusQ_tb6.Location = new System.Drawing.Point(178, 61);
             this.bonusQ_tb6.Name = "bonusQ_tb6";
-            this.bonusQ_tb6.Size = new System.Drawing.Size(35, 29);
+            this.bonusQ_tb6.Size = new System.Drawing.Size(56, 44);
             this.bonusQ_tb6.TabIndex = 3;
+            this.bonusQ_tb6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // teamID_tb6
             // 
             this.teamID_tb6.Enabled = false;
+            this.teamID_tb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teamID_tb6.Location = new System.Drawing.Point(8, 8);
             this.teamID_tb6.Name = "teamID_tb6";
-            this.teamID_tb6.Size = new System.Drawing.Size(136, 20);
+            this.teamID_tb6.Size = new System.Drawing.Size(226, 47);
             this.teamID_tb6.TabIndex = 0;
+            this.teamID_tb6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // mins_tb
             // 
+            this.mins_tb.BackColor = System.Drawing.Color.White;
             this.mins_tb.Enabled = false;
-            this.mins_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mins_tb.Location = new System.Drawing.Point(190, 146);
+            this.mins_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 99.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mins_tb.Location = new System.Drawing.Point(497, 250);
             this.mins_tb.Name = "mins_tb";
-            this.mins_tb.Size = new System.Drawing.Size(80, 116);
+            this.mins_tb.Size = new System.Drawing.Size(154, 158);
             this.mins_tb.TabIndex = 6;
             // 
             // secs_tb
             // 
+            this.secs_tb.BackColor = System.Drawing.Color.White;
             this.secs_tb.Enabled = false;
-            this.secs_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.secs_tb.Location = new System.Drawing.Point(335, 146);
+            this.secs_tb.Font = new System.Drawing.Font("Microsoft Sans Serif", 99.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.secs_tb.Location = new System.Drawing.Point(721, 250);
             this.secs_tb.Name = "secs_tb";
-            this.secs_tb.Size = new System.Drawing.Size(80, 116);
+            this.secs_tb.Size = new System.Drawing.Size(154, 158);
             this.secs_tb.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(279, 157);
+            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(665, 296);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 73);
+            this.label1.Size = new System.Drawing.Size(56, 79);
             this.label1.TabIndex = 8;
             this.label1.Text = ":";
             // 
             // start_btn
             // 
-            this.start_btn.Location = new System.Drawing.Point(268, 284);
+            this.start_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.start_btn.Location = new System.Drawing.Point(651, 443);
             this.start_btn.Name = "start_btn";
             this.start_btn.Size = new System.Drawing.Size(75, 23);
             this.start_btn.TabIndex = 9;
-            this.start_btn.Text = "CODE";
+            this.start_btn.Text = "MAIN";
             this.start_btn.UseVisualStyleBackColor = true;
             this.start_btn.Click += new System.EventHandler(this.start_btn_Click);
             // 
@@ -612,7 +663,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(605, 424);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1344, 730);
             this.Controls.Add(this.start_btn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.secs_tb);

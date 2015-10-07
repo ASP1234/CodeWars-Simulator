@@ -103,8 +103,8 @@ namespace CodeWars_Simulator
                 TEAM[i].bonusQ_btn.Enabled = true;
             }
 
-            MINS = 0;
-            SECS = 10;
+            MINS = 20;
+            SECS = 00;
             timer1.Start();
             start_btn.Visible = false;
         }
