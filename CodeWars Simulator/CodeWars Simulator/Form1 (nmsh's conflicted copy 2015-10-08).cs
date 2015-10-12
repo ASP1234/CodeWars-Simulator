@@ -18,12 +18,12 @@ namespace CodeWars_Simulator
         {
             InitializeComponent();
 
-            TEAM[0] = new team(teamID_tb1, mainQ_tb1, score_tb1, bonusQ_tb1, mainQ_btn1, neg_btn1, bonus_btn1, "1200");
-            TEAM[1] = new team(teamID_tb2, mainQ_tb2, score_tb2, bonusQ_tb2, mainQ_btn2, neg_btn2, bonus_btn2, "872");
-            TEAM[2] = new team(teamID_tb3, mainQ_tb3, score_tb3, bonusQ_tb3, mainQ_btn3, neg_btn3, bonus_btn3, "1373");
-            TEAM[3] = new team(teamID_tb4, mainQ_tb4, score_tb4, bonusQ_tb4, mainQ_btn4, neg_btn4, bonus_btn4, "1237");
-            TEAM[4] = new team(teamID_tb5, mainQ_tb5, score_tb5, bonusQ_tb5, mainQ_btn5, neg_btn5, bonus_btn5, "1357");
-            TEAM[5] = new team(teamID_tb6, mainQ_tb6, score_tb6, bonusQ_tb6, mainQ_btn6, neg_btn6, bonus_btn6, "1171");
+            TEAM[0] = new team(teamID_tb1, mainQ_tb1, score_tb1, bonusQ_tb1, mainQ_btn1, neg_btn1, bonus_btn1, "1");
+            TEAM[1] = new team(teamID_tb2, mainQ_tb2, score_tb2, bonusQ_tb2, mainQ_btn2, neg_btn2, bonus_btn2, "2");
+            TEAM[2] = new team(teamID_tb3, mainQ_tb3, score_tb3, bonusQ_tb3, mainQ_btn3, neg_btn3, bonus_btn3, "3");
+            TEAM[3] = new team(teamID_tb4, mainQ_tb4, score_tb4, bonusQ_tb4, mainQ_btn4, neg_btn4, bonus_btn4, "4");
+            TEAM[4] = new team(teamID_tb5, mainQ_tb5, score_tb5, bonusQ_tb5, mainQ_btn5, neg_btn5, bonus_btn5, "5");
+            TEAM[5] = new team(teamID_tb6, mainQ_tb6, score_tb6, bonusQ_tb6, mainQ_btn6, neg_btn6, bonus_btn6, "6");
 
             for (int i = 0; i < 6; i++)
             {
@@ -103,7 +103,7 @@ namespace CodeWars_Simulator
                 TEAM[i].bonusQ_btn.Enabled = true;
             }
 
-            MINS = 20;
+            MINS = 7;
             SECS = 00;
             timer1.Start();
             start_btn.Visible = false;

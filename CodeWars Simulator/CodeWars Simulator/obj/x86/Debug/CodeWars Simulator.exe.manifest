@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CodeWars Simulator.exe" size="141312">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CodeWars Simulator.exe" size="141824">
       <assemblyIdentity name="CodeWars Simulator" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Gg0hRXKFIlV2XGmBDe7wQBtr5K8=</dsig:DigestValue>
+        <dsig:DigestValue>MwvwzjSBkOkOMwBAuheD8Z8nVfA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
